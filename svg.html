@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Chewy&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>Interaktiv SVG | Eventnavn</title>
+  <link rel="stylesheet" href="./starter.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-content">
+
+      <a class="site-logo" href="index.html">
+        <img class="logo-billede" src="./img/Aktiv8.webp" alt="">
+        <span>Sanse Hytten</span>
+      </a>
+
+      <nav class="site-nav">
+        <button popovertarget="menu">Menu</button>
+        <ul class="menu" id="menu" popover>
+          <li><a href="./">Forside</a></li>
+          <li><a href="./svg.html" aria-current="page">Elementer</a></li>
+          <li><a href="./form.html">Tilmelding</a></li>
+          <li><a href="./404.html">Kontakt</a></li>
+        </ul>
+
+
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="svg-page">
+      <header class="svg-intro">
+        <h1>Elementerne med Sanse Hytten</h1>
+        <p></p>
+      </header>
+
+      <section class="svg-layout">
+        <div class="svg-placeholder">
+          <svg class="event-map" viewBox="0 0 1364.94 808.69">
+            <use class="scene" href="./img/samletsvg5.svg#baggrund"></use>
+            <use class="spot" href="./img/samletsvg5.svg#spot"></use>
+            <use class="ild" href="./img/samletsvg5.svg#ild"></use>
+            <use class="vand" href="./img/samletsvg5.svg#vand"></use>
+            <use class="luft" href="./img/samletsvg5.svg#luft"></use>
+            <use class="jord" href="./img/samletsvg5.svg#jord"></use>
+          </svg>
+        </div>
+
+        <article class="panel">
+          <h2 class="h2svg">Hvad kan elementer tilbyde</h2>
+          <div class="accordion">
+
+            <details class="accordion-item" id="details-first" data-position="first" name="elements">
+              <summary class="titelsvg">Ild</summary>
+              <div>
+                <h3>Ild - Mærk det</h3>
+                <p class="psvg">Oplev ildens kraft og intensitet. En varm og energifyldt gus, der vækker sanserne, giver
+                  ny energi og
+                  skaber plads til fornyelse.</p>
+              </div>
+            </details>
+
+            <details class="accordion-item" id="details-second" data-position="second" name="elements">
+              <summary class="titelsvg">Vand</summary>
+              <div>
+                <h3>Vand - Giv slip</h3>
+                <p class="psvg">Lad tankerne flyde som vand. En blid og sanselig gus, der inviterer dig til at give
+                  slip, finde indre
+                  ro og mærke kroppens naturlige flow.</p>
+              </div>
+            </details>
+
+            <details class="accordion-item" id="details-third" data-position="third" name="elements">
+              <summary class="titelsvg">Luft</summary>
+              <div>
+                <h3>Luft - Træk vejret frit</h3>
+                <p class="psvg">Find letheden i en gus inspireret af luftens frie bevægelser. Mærk åndedrættet, giv
+                  plads til nye
+                  tanker, og lad kroppen finde frihed og balance.</p>
+              </div>
+            </details>
+
+            <details class="accordion-item" id="details-fourth" data-position="fourth" name="elements">
+              <summary class="titelsvg">Jord</summary>
+              <div>
+                <h3>Jord - Find ro</h3>
+                <p class="psvg">Mærk forbindelsen til jorden. En gus inspireret af naturens stabilitet, varme og ro. Giv
+                  kroppen lov
+                  til at lande, og find balancen i dig selv.</p>
+              </div>
+            </details>
+
+          </div>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>@ 2026 Sanse Hytten</p>
+      <p>Af Livia & Filippa</p>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
